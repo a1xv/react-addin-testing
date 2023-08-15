@@ -5,6 +5,7 @@ import { ThemeProvider } from "@fluentui/react";
 import * as React from "react";
 import * as ReactDOM from "react-dom";
 
+// eslint-disable-next-line no-redeclare
 /* global document, Office, module, require */
 
 initializeIcons();
@@ -28,6 +29,7 @@ const render = (Component) => {
 Office.onReady(() => {
   isOfficeInitialized = true;
   render(App);
+  console.log(123);
 });
 
 if ((module as any).hot) {
