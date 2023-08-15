@@ -4,7 +4,7 @@
   <Version>1.0.0.0</Version>
   <ProviderName>Contoso</ProviderName>
   <DefaultLocale>en-US</DefaultLocale>
-  <DisplayName DefaultValue="react-testing-addin"/>
+  <DisplayName DefaultValue="react-testing-addin1"/>
   <Description DefaultValue="A template to get started."/>
   <IconUrl DefaultValue="https://a1xv.github.io/react-addin-testing/assets/icon-32.png"/>
   <HighResolutionIconUrl DefaultValue="https://a1xv.github.io/react-addin-testing/assets/icon-64.png"/>
