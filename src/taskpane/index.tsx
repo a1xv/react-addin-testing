@@ -10,6 +10,8 @@ import * as ReactDOM from "react-dom";
 
 initializeIcons();
 
+console.log("KEK1");
+
 let isOfficeInitialized = false;
 
 const title = "Contoso Task Pane Add-in";
@@ -29,7 +31,7 @@ const render = (Component) => {
 Office.onReady(() => {
   isOfficeInitialized = true;
   render(App);
-  console.log(123);
+  console.log("KEK");
 });
 
 if ((module as any).hot) {
