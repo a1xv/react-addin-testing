@@ -8,7 +8,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Contoso Task Pane Add-in2</title>
+    <title>Contoso Task Pane Add-in3</title>
 
     <!-- Office JavaScript API -->
     <script type="text/javascript" src="https://appsforoffice.microsoft.com/lib/1.1/hosted/office.js"></script>
@@ -25,25 +25,8 @@
 </body>
 
 <script>
-    import { AppContainer } from "react-hot-loader";
-    import { ThemeProvider } from "@fluentui/react";
-    import * as React from "react";
-    import * as ReactDOM from "react-dom";
-
-    const title = "Contoso Task Pane Add-in";
-    let isOfficeInitialized = false;
-
     Office.onReady(() => {
         console.log('asfasfsafsaf');
-        isOfficeInitialized = true;
-        ReactDOM.render(
-          <AppContainer>
-              <ThemeProvider>
-                  <Component title={title} isOfficeInitialized={isOfficeInitialized} />
-              </ThemeProvider>
-          </AppContainer>,
-          document.getElementById("container")
-        );
     });
 </script>
 
