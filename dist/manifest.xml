@@ -68,7 +68,7 @@
       </bt:Images>
       <bt:Urls>
         <bt:Url id="GetStarted.LearnMoreUrl" DefaultValue="https://go.microsoft.com/fwlink/?LinkId=276812"/>
-        <bt:Url id="Commands.Url" DefaultValue="https://a1xv.github.io/react-addin-testing/commands/commands.html"/>
+        <bt:Url id="Commands.Url" DefaultValue="https://a1xv.github.io/react-addin-testing/src/commands/commands.html"/>
         <bt:Url id="Taskpane.Url" DefaultValue="https://a1xv.github.io/react-addin-testing/src/taskpane/taskpane.html"/>
       </bt:Urls>
       <bt:ShortStrings>
