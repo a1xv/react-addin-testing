@@ -1,5 +1,10 @@
 import Progress from "./Progress";
+import React from "react";
+import { DefaultButton } from "@fluentui/react";
+import Header from "./Header";
+import HeroList, { HeroListItem } from "./HeroList";
 
+// eslint-disable-next-line no-redeclare
 /* global Word, require */
 
 export interface AppProps {
@@ -82,7 +87,3 @@ export default class App extends React.Component<AppProps, AppState> {
     );
   }
 }
-import * as React from "react";
-import { DefaultButton } from "@fluentui/react";
-import Header from "./Header";
-import HeroList, { HeroListItem } from "./HeroList";
